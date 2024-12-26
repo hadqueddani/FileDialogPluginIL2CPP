@@ -8,7 +8,7 @@ I used it on my computer with Windows 11, I don't know if it will work for other
 using System;
 using System.Runtime.InteropServices;
 using UnityEngine;
-public class FileBrowserReplacer : MonoBehaviour
+public class FileBrowser : MonoBehaviour
 {
     [DllImport("FileDialogPluginIL2CPP.dll", CharSet = CharSet.Unicode)]
     private static extern IntPtr OpenFileDialog([MarshalAs(UnmanagedType.LPWStr)] string filter);
