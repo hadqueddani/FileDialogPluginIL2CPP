@@ -2,7 +2,7 @@
 Unity IL2CPP File Dialog Plugin (.dll)
 
 Small .dll file to open and save files from Unity using IL2CPP as Scripting Backend.
-I used it on my computer with Windows 11, I don't know if it will work for other devices with a different version of Windows.
+Microsoft Visual C++ Redistributable IS REQUIRED FOR THE PLUGIN TO WORK PROPERLY.
 
 ```csharp
 using System;
